@@ -36,11 +36,14 @@ The --rm flag ensures that the container is automatically removed when it stops.
 
 The -p 8080:8080 option maps port 8080 from the container to port 8080 on your local machine.
 
-After running this command, your application will be available at:
-http://localhost:8080
-
 ### 3. Accessing the Application
-Once the container is running, you can access the application via the browser at:
-http://localhost:8080
-
+Once the container is running, you can access the endpoint via postman at:
+POST http://localhost:8080/receipts/process
+GET http://localhost:8080/receipts/{id}/points // The ID can be obtained from the POST response.
 You should be able to interact with the application on the specified port.
+
+## troubleshoot
+If you got issue on pull jdk from docker during build docker image, you can change the jdk version in 
+**Dockerfile** (first line) from *amazoncorretto:8-alpine-jdk* to **openjdk:8-alpine** 
+
+
