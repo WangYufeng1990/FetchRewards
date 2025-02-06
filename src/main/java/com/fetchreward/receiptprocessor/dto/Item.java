@@ -5,13 +5,13 @@ import javax.validation.constraints.Pattern;
 
 public class Item {
 
-    @NotBlank(message = "Item description is required.")
-    @Pattern(regexp = "^[\\w\\s\\-]+$", message = "shortDescription is invalid.")
-    private String shortDescription;
+        @NotBlank(message = "Item description is required.")
+        @Pattern(regexp = "^[\\w\\s\\-]+$", message = "shortDescription is invalid.")
+        private String shortDescription;
 
-    @NotBlank(message = "Item price is required.")
-    @Pattern(regexp = "^\\d+\\.\\d{2}$", message = "price is invalid.")
-    private String price;
+        @NotBlank(message = "Item price is required.")
+        @Pattern(regexp = "^\\d+\\.\\d{2}$", message = "price is invalid.")
+        private String price;
 
     public Item() {
     }

@@ -1,6 +1,7 @@
 package com.fetchreward.receiptprocessor.dto;
 
 import java.util.List;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
@@ -23,6 +24,7 @@ public class Receipt {
 
     @NotEmpty(message = "At least one item is required.")
     @Size(min = 1, message = "Receipt must have at least one item.")
+    @Valid
     private List<Item> items;
 
     @NotBlank(message = "Total amount is required.")
