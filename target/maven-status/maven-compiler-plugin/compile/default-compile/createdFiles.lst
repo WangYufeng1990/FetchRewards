@@ -1,0 +1,10 @@
+com/fetchreward/receiptprocessor/service/ReceiptPointsCalculator.class
+com/fetchreward/receiptprocessor/controller/ReceiptProcessorController.class
+com/fetchreward/receiptprocessor/dto/Item.class
+com/fetchreward/receiptprocessor/exception/GlobalExceptionHandler.class
+com/fetchreward/receiptprocessor/service/ReceiptService.class
+com/fetchreward/receiptprocessor/dto/response/PointsResponse.class
+com/fetchreward/receiptprocessor/dto/Receipt.class
+com/fetchreward/receiptprocessor/exception/ReceiptNotFoundException.class
+com/fetchreward/receiptprocessor/dto/response/ReceiptResponse.class
+com/fetchreward/receiptprocessor/ReceiptProcessorApplication.class

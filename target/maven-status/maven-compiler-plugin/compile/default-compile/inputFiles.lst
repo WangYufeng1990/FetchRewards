@@ -1,0 +1,10 @@
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/service/ReceiptPointsCalculator.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/dto/response/PointsResponse.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/ReceiptProcessorApplication.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/dto/Receipt.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/exception/ReceiptNotFoundException.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/dto/response/ReceiptResponse.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/controller/ReceiptProcessorController.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/dto/Item.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/exception/GlobalExceptionHandler.java
+/Users/fairylord/Interviews/FetchRewards/receipt-processor/src/main/java/com/fetchreward/receiptprocessor/service/ReceiptService.java
