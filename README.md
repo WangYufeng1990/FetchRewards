@@ -23,8 +23,8 @@ Execute the following command to build the Docker image:
 
 ```bash
 docker build -t receipt-processor .
-This command will use the Dockerfile in the current directory to build the Docker image and tag it as receipt-processor.
 ```
+This command will use the Dockerfile in the current directory to build the Docker image and tag it as receipt-processor.
 
 ### 2. Run Docker Container
 Once the image is built, you can run the Docker container with the following command:
